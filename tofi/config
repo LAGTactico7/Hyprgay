@@ -1,0 +1,26 @@
+
+# Text
+font = "CaskaydiaCove Nerd Font Mono"
+font-size = 13
+anchor = center
+
+background-color = #0D1011
+text-color = #6EBAB9
+selection-color = #77929e
+border-color = #6EBAB9
+
+outline-width = 0
+border-width = 3
+padding-left = 1%
+padding-top = 1%
+padding-right = 1%
+padding-bottom = 1%
+corner-radius = 15
+selection-background-corner-radius = 4
+selection-background-padding = 1
+
+width = 20%
+height = 30%
+
+hide-cursor = true
+prompt-text ="❯ "

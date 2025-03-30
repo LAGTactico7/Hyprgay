@@ -1,0 +1,66 @@
+{
+	/*
+ 	"logo": "none",
+ 	
+    "logo": {
+    	"source": "~/.config/fastfetch/logo.png",
+    	"type": "kitty",
+    	"height": 18,
+    	"padding": {
+    		"top": 0
+    	}
+    },
+	*/
+
+    "logo": {
+        "source": "~/.config/fastfetch/arch.txt",
+        "padding": {
+            "top": 1,
+            "left": 2,
+            "right": 3
+        }
+    },
+    
+	"display": {
+	    "separator": ""
+	},
+	
+	"modules": [
+
+        {
+            "type": "custom",
+            "format": ""
+        },
+		{
+			"type": "title",
+			"format": "{#39}break@archlinux"  
+		},
+		{
+			"key": "{#39}os",
+			"type": "os",
+			"format": "      {3}"
+		},
+		{
+			"key": "{#39}kernel",
+			"type": "kernel",
+			"format": "  {2}"
+		},
+		{
+			"key": "{#39}wm",
+			"type": "wm",
+			"format": "      {2}"
+		},
+		{
+			"key": "{#39}uptime",
+			"type": "uptime",
+			"format": "  {2}h {3}m"
+		},
+		{
+			"key": "{#39}shell",
+			"type": "shell",
+			"format": "   {1}"
+		},
+	]
+}
+
+

@@ -1,0 +1,57 @@
+@define-color pri-cl #6EBAB9;
+@define-color bac-cl #0D1011;
+
+* {
+	font-family: "IBM Plex Mono", FontAwesome;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+window#waybar {
+    all:unset;
+}
+
+#workspaces {
+	background: @bac-cl;
+	color: @pri-cl;
+	border-top: 3px;
+	border-style: solid;
+	border-color: @pri-cl;
+	margin-bottom: 10px;
+	padding: 5px 10px 5px 10px;
+	border-radius: 10px;
+}
+
+#workspaces button {
+    all:unset;
+    padding: 0px 15px;
+}
+
+#workspaces button.active {
+	background: @pri-cl;
+	border-radius: 10px;
+	min-width: 15px;
+	transition: min-width 0.5s;
+}
+
+#clock, #cpu, #memory {
+	background: @bac-cl;
+	color: @pri-cl;
+	border-width: 3px 3px 0px 0px;
+	border-style: solid;
+	border-color: @pri-cl;
+	margin: 0px 0px 10px 10px;
+	padding: 5px 10px 5px 10px;
+	border-radius: 10px 0px 10px 0px;
+}
+
+#cava, #pulseaudio, #battery, #network {
+	background: @bac-cl;
+	color: @pri-cl;
+	border-width: 3px 0px 0px 3px;
+	border-style: solid;
+	border-color: @pri-cl;
+	margin: 0px 10px 10px 0px;
+	padding: 5px 10px 5px 10px;
+	border-radius: 0px 10px 0px 10px;
+}

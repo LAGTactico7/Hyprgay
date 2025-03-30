@@ -1,0 +1,73 @@
+{
+	"reload_style_on_change": true,
+	"layer": "bottom",
+	"position": "bottom",
+    "modules-left": ["clock", "cpu", "memory"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": ["cava", "pulseaudio", "battery", "network"],
+
+	"cava": {
+	    "framerate": 60,
+	    "autosens": 1,
+	    "bars": 12,
+	    "method": "pipewire",
+	    "source": "auto",
+	    "bar_delimiter": 0,
+	    "input_delay": 0,
+	    "sleep_timer": 2,
+	    "hide_on_silence": false,
+	    "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ]
+	},
+
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "active": "",
+            "default": "",
+            "empty": ""
+        },
+        "persistent-workspaces": {
+            "*": [1, 2, 3, 4, 5]
+        }
+    },
+	"pulseaudio": {
+	    "format": "{icon} {volume}%",
+	    "format-bluetooth": "{volume}% {icon} {format_source}",
+	    "format-bluetooth-muted": " Mute",
+	    "format-muted": " Mute",
+	    "format-source-muted": "",
+	    "tooltip": false,
+	    "format-icons": {
+	        "headphone": "",
+	        "default": ["", "", ""]
+	    }
+	},
+	"network": {
+	    "format-wifi": " Conectado",
+	    "format-ethernet": "",
+	    "format-disconnected": "Desconectado",
+	    "tooltip-format-disconnected": "Error",
+	    "tooltip": false
+	},
+	"battery": {
+	    "format": "{icon}",
+	    "format-full": "{icon}",
+	    "format-charging": " {capacity}%",
+	    "format-plugged": " {capacity}%",
+	    "format-alt": "{time} {icon}",
+	    "format-icons": ["", "", "", "", ""],
+	    "tooltip": false
+	},
+	"clock": {
+	  "format": "{:%H:%M}",
+	  "tooltip": false
+	},
+	"cpu": {
+	  "format": "CPU: {usage}%",
+	  "tooltip": false
+	},
+	"memory": {
+	  "format": "RAM: {used} GB",
+	  "tooltip": false
+	}
+}
