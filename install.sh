@@ -12,12 +12,6 @@ echo ""
 echo "Copiando archivos de configuracion mas gays aun..."
 echo ""
 
-cp -r $HOME/Hyprgay/.config ~/
-cp -r $HOME/Hyprgay/.fonts ~/
-cp -r $HOME/Hyprgay/.icons ~/
-cp $HOME/Hyprgay/.p10k.zsh ~/
-cp $HOME/Hyprgay/.zshrc ~/
-
 [ -d ".config" ] && cp -r .config/* ~/.config/ && echo "Archivos de .config copiados a ~/.config." || echo "No se encontró .config."
 [ -d ".fonts" ] && cp -r .fonts/* ~/ && echo "Archivos de .fonts copiados a ~/" || echo "No se encontró .fonts"
 [ -d ".icons" ] && cp -r .icons/* ~/ && echo "Archivos de .icons copiados a ~/" || echo "No se encontró .icons"
