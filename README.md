@@ -33,7 +33,7 @@ porque no pienso darte instrucciones Nya)
 
 # 🌊 Atajos
 
-## 💻 Comandos Básicos
+**💻 Comandos Básicos**
 
 - **Abrir terminal**:  `SUPER + K`
 - **Cerrar ventana activa**:  `SUPER + J`
@@ -45,39 +45,24 @@ porque no pienso darte instrucciones Nya)
 - **Toggle split (Dividir la ventana)**:  `SUPER + L`
 - **Pantalla completa**:  `SUPER + F11`
 
-## 🎮 Navegación entre Ventanas
+**🎮 Navegación entre Ventanas**
 
 - **Mover el foco hacia la izquierda**:  `SUPER + A`
 - **Mover el foco hacia la derecha**:  `SUPER + D`
 - **Mover el foco hacia arriba**:  `SUPER + W`
 - **Mover el foco hacia abajo**:  `SUPER + S`
 
-## 🖥️ Espacios de Trabajo
+**🖥️ EEspacios de Trabajo**
 
-- **Cambiar a workspace 1-9**:  `SUPER + [1-9]`
-- **Mover ventana al workspace 1-9**:  `SUPER + SHIFT + [1-9]`
+- **Cambiar workspace de 1 a 10**:  `SUPER + [1,2,3,4,etc...]`
+- **Mover ventana al workspace 1 a 10**:  `SUPER + SHIFT + [1,2,3,4,etc...]`
 
-## 📸 Capturas de Pantalla
+**📸 Captura de Pantalla**
 
 - **Captura de pantalla completa**:  `SUPER + PRINT`
 - **Captura de una región**:  `SUPER + SHIFT + S`
 
-## 🎧 Multimedia
-
-- **Subir volumen**:  `XF86AudioRaiseVolume`
-- **Bajar volumen**:  `XF86AudioLowerVolume`
-- **Mutear volumen**:  `XF86AudioMute`
-- **Cambiar de pista (Requiere playerctl)**:  `XF86AudioNext`
-- **Pausar/Despausar música (Requiere playerctl)**:  `XF86AudioPause`
-
-## 🔧 Otros Atajos Útiles
+**🔧 Otros**
 
 - **Reiniciar Waybar**:  `SUPER + SHIFT + B`
-- **Subir brillo de la pantalla**:  `XF86MonBrightnessUp`
-- **Bajar brillo de la pantalla**:  `XF86MonBrightnessDown`
-- **Mutear micrófono**:  `XF86AudioMicMute`
-
-## 📂 Comandos Adicionales
-
-- **Abrir el terminal**:  `SUPER + K`
-- **Abrir el menú**:  `SUPER + R`
+- **Color Picker**: `SUPER + P`
