@@ -16,7 +16,7 @@ echo ""
 [ -d ".fonts" ] && cp -r .fonts/* ~/ && echo "Archivos de .fonts copiados a ~/" || echo "No se encontró .fonts"
 [ -d ".icons" ] && cp -r .icons/* ~/ && echo "Archivos de .icons copiados a ~/" || echo "No se encontró .icons"
 [ -d "wallpapers" ] && cp -r wallpapers/* ~/ && echo "Archivos de wallpapers copiados a ~/" || echo "No se encontró wallpapers"
-[ -d ".fonts" ] && cp .p10k.zsh ~/ && echo "Archivos de .p10k.zsh copiados a ~/" || echo "No se encontró .p10k.zsh"
+[ -d ".p10k.zsh" ] && cp .p10k.zsh ~/ && echo "Archivos de .p10k.zsh copiados a ~/" || echo "No se encontró .p10k.zsh"
 [ -d ".zshrc" ] && cp .zshrc ~/ && echo "Archivos de .zshrc copiados a ~/" || echo "No se encontró .zshrc"
 
 # Cambiar el shell solo si Zsh está instalado y no es el actual
