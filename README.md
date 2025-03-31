@@ -60,7 +60,7 @@
 sudo pacman -Syu
 sudo pacman -S git
 cd ~
-git clone --depth=1 https://github.com/LAGTactico7/Hyprgay
+git clone https://github.com/LAGTactico7/Hyprgay
 cd hyprgay
 ./install.sh
 ```
