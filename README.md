@@ -1,8 +1,7 @@
 # Hyprgay
 **Una configuracion de Hyprland muy gay**
+
 <br>
-(si no te funciona el install.sh.. lo siento mucho de verdad...
-porque no pienso darte instrucciones Nya)
 
 * **Windows Manager** • [Hyprland](https://hyprland.org) Me gustan los Tiles
 * **Shell** • [Zsh](https://www.zsh.org/) Se ve bonito
@@ -14,7 +13,20 @@ porque no pienso darte instrucciones Nya)
 * **Visualizations** • [cava](https://github.com/karlstav/cava) Barritas locas
 * **Terminal Fetch** • [fastfetch](https://github.com/dylanaraps/fastfetch) Para presumir tu ArchGay
 
+# 💙 Setpu
 ![Cap1](assets/cap1.png)  
 ![Cap2](assets/cap2.png)  
 ![Cap3](assets/cap3.png)  
 ![Cap4](assets/cap4.png)
+
+```bash
+sudo pacman -Syu
+sudo pacman -S git
+cd ~
+git clone --depth=1 https://github.com/LAGTactico7/Hyprgay?tab=readme-ov-file
+cd hyprgay
+./install.sh
+```
+
+(si no te funciona el install.sh.. lo siento mucho de verdad...
+porque no pienso darte instrucciones Nya)
