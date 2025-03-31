@@ -13,9 +13,9 @@ echo "Copiando archivos de configuracion mas gays aun..."
 echo ""
 
 cp -r .config/* ~/.config/ && echo "Archivos de .config copiados a ~/.config." || echo "No se encontró .config."
-cp -r .fonts ~/ && echo "Archivos de .fonts copiados a ~/" || echo "No se encontró .fonts"
-cp -r .icons ~/ && echo "Archivos de .icons copiados a ~/" || echo "No se encontró .icons"
-cp -r wallpapers ~/ && echo "Archivos de wallpapers copiados a ~/" || echo "No se encontró wallpapers"
+cp -r .fonts/* ~/ && echo "Archivos de .fonts copiados a ~/" || echo "No se encontró .fonts"
+cp -r .icons/* ~/ && echo "Archivos de .icons copiados a ~/" || echo "No se encontró .icons"
+cp -r wallpapers/* ~/ && echo "Archivos de wallpapers copiados a ~/" || echo "No se encontró wallpapers"
 cp .p10k.zsh ~/ && echo "Archivos de .p10k.zsh copiados a ~/" || echo "No se encontró .p10k.zsh"
 cp .zshrc ~/ && echo "Archivos de .zshrc copiados a ~/" || echo "No se encontró .zshrc"
 
