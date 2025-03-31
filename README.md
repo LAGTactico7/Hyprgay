@@ -1,5 +1,3 @@
-![Banner](header.png)
-
 # 🔷 Hyprgay
 **Una configuracion de Hyprland muy gay**
 
