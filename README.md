@@ -1,5 +1,6 @@
 # Hyprgay
 **Una configuracion de Hyprland muy gay**
+<br>
 (si no te funciona el install.sh.. lo siento mucho de verdad...
 porque no pienso darte instrucciones Nya)
 
