@@ -6,10 +6,10 @@
 * **Terminal** • [Kitty](https://sw.kovidgoyal.net/kitty/) Súper rápido y bonito
 * **Text Editor** • [Micro](https://micro-editor.github.io/) Ligero y eficiente
 * **Bar** • [Waybar](https://github.com/Alexays/Waybar) Linda barra
-* **Music Player** • [cmus](https://cmus.github.io/) Reproductor de musica Gay
-* **System Monitor** • [btop](https://github.com/aristocratos/btop) Para ver todo lo que pasa en tu PC
-* **Visualizations** • [cava](https://github.com/karlstav/cava) Barritas locas
-* **Terminal Fetch** • [fastfetch](https://github.com/dylanaraps/fastfetch) Para presumir tu ArchGay
+* **Music Player** • [Cmus](https://cmus.github.io/) Reproductor de musica Gay
+* **System Monitor** • [Btop](https://github.com/aristocratos/btop) Para ver todo lo que pasa en tu PC
+* **Visualizations** • [Cava](https://github.com/karlstav/cava) Barritas locas
+* **Terminal Fetch** • [Fastfetch](https://github.com/dylanaraps/fastfetch) Para presumir tu ArchGay
 
 # 💙 Setpu
 ![Cap1](assets/cap1.png)  
