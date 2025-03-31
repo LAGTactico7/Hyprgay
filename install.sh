@@ -11,21 +11,19 @@ paru -S tofi waybar-cava oh-my-zsh-git zsh zsh-theme-powerlevel10k hyprshot
 echo ""
 echo "Copiando archivos de configuracion mas gays aun..."
 echo ""
-mkdir -p ~/.config/
-cp -r $HOME/hyprgay/btop ~/.config/
-cp -r $HOME/hyprgay/cava ~/.config/
-cp -r $HOME/hyprgay/cmus ~/.config/
-cp -r $HOME/hyprgay/fastfetch ~/.config/
-cp -r $HOME/hyprgay/hypr ~/.config/
-cp -r $HOME/hyprgay/kitty ~/.config/
-cp -r $HOME/hyprgay/micro ~/.config/
-cp -r $HOME/hyprgay/tofi ~/.config/
-cp -r $HOME/hyprgay/waybar ~/.config/
-cp -r $HOME/hyprgay/wallpapers ~/.config/
-cp -r $HOME/hyprgay/.fonts ~/
-cp -r $HOME/hyprgay/.icons ~/
-cp $HOME/hyprgay/.p10k.zsh ~/
-cp $HOME/hyprgay/.zshrc ~/
+
+cp -r $HOME/Hyprgay/.config ~/
+cp -r $HOME/Hyprgay/.fonts ~/
+cp -r $HOME/Hyprgay/.icons ~/
+cp $HOME/Hyprgay/.p10k.zsh ~/
+cp $HOME/Hyprgay/.zshrc ~/
+
+[ -d ".config" ] && cp -r .config/* ~/.config/ && echo "Archivos de .config copiados a ~/.config." || echo "No se encontró .config."
+[ -d ".fonts" ] && cp -r .fonts/* ~/ && echo "Archivos de .fonts copiados a ~/" || echo "No se encontró .fonts"
+[ -d ".icons" ] && cp -r .icons/* ~/ && echo "Archivos de .icons copiados a ~/" || echo "No se encontró .icons"
+[ -d ".fonts" ] && cp -r .p10k.zsh/* ~/ && echo "Archivos de .p10k.zsh copiados a ~/" || echo "No se encontró .p10k.zsh"
+[ -d ".zshrc" ] && cp -r .zshrc/* ~/ && echo "Archivos de .zshrc copiados a ~/" || echo "No se encontró .zshrc"
+
 
 # Cambiar el shell solo si Zsh está instalado y no es el actual
 if [ "$SHELL" != "/usr/bin/zsh" ] && command -v zsh &> /dev/null; then
