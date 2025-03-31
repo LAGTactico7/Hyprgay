@@ -1,7 +1,5 @@
-# Hyprgay
+# 🔷 Hyprgay
 **Una configuracion de Hyprland muy gay**
-
-<br>
 
 * **Windows Manager** • [Hyprland](https://hyprland.org) Me gustan los Tiles
 * **Shell** • [Zsh](https://www.zsh.org/) Se ve bonito
@@ -18,6 +16,8 @@
 ![Cap2](assets/cap2.png)  
 ![Cap3](assets/cap3.png)  
 ![Cap4](assets/cap4.png)
+
+# 🔵 Instalación
 
 ```bash
 sudo pacman -Syu
