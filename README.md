@@ -33,38 +33,4 @@ porque no pienso darte instrucciones Nya)
 
 # 🌊 Atajos
 
-- **Abrir terminal**:  
-  `SUPER + K`  
-  Abre tu terminal favorito.
-
-- **Cerrar ventana activa**:  
-  `SUPER + J`  
-  Mata la ventana activa.
-
-- **Salir de la sesión**:  
-  `SUPER + M`  
-  Salir de la sesión de Hyprland.
-
-- **Abrir explorador de archivos**:  
-  `SUPER + E`  
-  Abre el explorador de archivos.
-
-- **Alternar entre ventanas flotantes**:  
-  `SUPER + V`  
-  Activa o desactiva el modo flotante.
-
-- **Abrir el menú**:  
-  `SUPER + R`  
-  Abre el menú principal de aplicaciones.
-
-- **Dwindle (Ajuste de ventana)**:  
-  `SUPER + H`  
-  Ajusta la ventana a modo Dwindle.
-
-- **Toggle split (Dividir la ventana)**:  
-  `SUPER + L`  
-  Alterna la división de la ventana activa.
-
-- **Pantalla completa**:  
-  `SUPER + F11`  
-  Pon la ventana activa en modo pantalla completa.
+- **Abrir terminal**:  `SUPER + K`
