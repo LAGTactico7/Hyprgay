@@ -59,7 +59,7 @@
 sudo pacman -Syu
 sudo pacman -S git
 cd ~
-git clone --depth=1 https://github.com/LAGTactico7/Hyprgay?tab=readme-ov-file
+git clone --depth=1 https://github.com/LAGTactico7/Hyprgay
 cd hyprgay
 ./install.sh
 ```
