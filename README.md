@@ -17,20 +17,6 @@
 ![Cap3](assets/cap3.png)  
 ![Cap4](assets/cap4.png)
 
-# 🔵 Instalación
-
-```bash
-sudo pacman -Syu
-sudo pacman -S git
-cd ~
-git clone --depth=1 https://github.com/LAGTactico7/Hyprgay?tab=readme-ov-file
-cd hyprgay
-./install.sh
-```
-
-(si no te funciona el install.sh.. lo siento mucho de verdad...
-porque no pienso darte instrucciones Nya)
-
 # 🌊 Atajos
 
 **💻 Comandos Básicos**
@@ -52,7 +38,7 @@ porque no pienso darte instrucciones Nya)
 - **Mover el foco hacia arriba**:  `SUPER + W`
 - **Mover el foco hacia abajo**:  `SUPER + S`
 
-**🖥️ EEspacios de Trabajo**
+**🖥️ Espacios de Trabajo**
 
 - **Cambiar workspace de 1 a 10**:  `SUPER + [1,2,3,4,etc...]`
 - **Mover ventana al workspace 1 a 10**:  `SUPER + SHIFT + [1,2,3,4,etc...]`
@@ -66,3 +52,17 @@ porque no pienso darte instrucciones Nya)
 
 - **Reiniciar Waybar**:  `SUPER + SHIFT + B`
 - **Color Picker**: `SUPER + P`
+
+# 🔵 Instalación
+
+```bash
+sudo pacman -Syu
+sudo pacman -S git
+cd ~
+git clone --depth=1 https://github.com/LAGTactico7/Hyprgay?tab=readme-ov-file
+cd hyprgay
+./install.sh
+```
+
+(si no te funciona el install.sh.. lo siento mucho de verdad...
+porque no pienso darte instrucciones Nya)
