@@ -34,3 +34,12 @@ porque no pienso darte instrucciones Nya)
 # 🌊 Atajos
 
 - **Abrir terminal**:  `SUPER + K`
+- **Cerrar ventana activa**:  `SUPER + J`
+- **Salir de la sesión**:  `SUPER + M`
+- **Abrir explorador de archivos**:  `SUPER + E`
+- **Alternar entre ventanas flotantes**:  `SUPER + V`
+- **Abrir el menú**:  `SUPER + R`
+- **Dwindle (Ajuste de ventana)**:  `SUPER + H`
+- **Toggle split (Dividir la ventana)**:  `SUPER + L`
+- **Pantalla completa**:  `SUPER + F11`
+
