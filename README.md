@@ -1,4 +1,5 @@
 # 🔷 Hyprgay
+
 **Una configuracion de Hyprland muy gay**
 
 * **Windows Manager** • [Hyprland](https://hyprland.org) Me gustan los Tiles
