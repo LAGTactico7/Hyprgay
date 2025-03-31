@@ -6,7 +6,7 @@ sudo pacman -S btop cava cmus fastfetch hyprland kitty micro git
 echo ""
 echo "Espera un poquito mas precioso..."
 echo ""
-paru -S tofi waybar-cava oh-my-zsh-git zsh zsh-theme-powerlevel10k
+paru -S tofi waybar-cava oh-my-zsh-git zsh zsh-theme-powerlevel10k hyprshot
 
 echo ""
 echo "Copiando archivos de configuracion mas gays aun..."
