@@ -1,11 +1,17 @@
 echo ""
 echo "Instalando dependencias muy gays..."
 echo ""
-sudo pacman -S btop cava cmus fastfetch hyprland kitty micro git ttf-ibm-plex
+sudo pacman -S btop cava cmus fastfetch hyprland kitty micro wl-clipboard hyprpicker git ttf-ibm-plex 
 
 echo ""
 echo "Espera un poquito mas precioso..."
 echo ""
+
+git clone https://aur.archlinux.org/paru-bin.git
+cd paru-bin 
+makepkg -si
+cd ..
+paru -Sy
 paru -S tofi waybar-cava oh-my-zsh-git zsh zsh-theme-powerlevel10k hyprshot
 
 echo ""

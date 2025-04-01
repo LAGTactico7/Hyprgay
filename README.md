@@ -12,7 +12,7 @@
 * **Visualizations** • [Cava](https://github.com/karlstav/cava) Barritas locas
 * **Terminal Fetch** • [Fastfetch](https://github.com/fastfetch-cli/fastfetch) Para presumir tu ArchGay
 
-# 💙 Setpu
+# 💙 Setup
 ![Cap1](assets/cap1.png)  
 ![Cap2](assets/cap2.png)  
 ![Cap3](assets/cap3.png)  
@@ -24,13 +24,18 @@
 
 - **Abrir terminal**:  `SUPER + K`
 - **Cerrar ventana activa**:  `SUPER + J`
-- **Salir de la sesión**:  `SUPER + M`
+- **Abrir el menú**:  `SUPER + O`
 - **Abrir explorador de archivos**:  `SUPER + E`
-- **Alternar entre ventanas flotantes**:  `SUPER + V`
-- **Abrir el menú**:  `SUPER + R`
-- **Dwindle (Ajuste de ventana)**:  `SUPER + H`
 - **Toggle split (Dividir la ventana)**:  `SUPER + L`
+- **Alternar entre ventanas flotantes**:  `SUPER + V`
+- **Dwindle (Ajuste de ventana)**:  `SUPER + H`
+- **Salir de la sesión**:  `SUPER + M`
 - **Pantalla completa**:  `SUPER + F11`
+
+**📸 Captura de Pantalla**
+
+- **Captura de pantalla completa**:  `SUPER + PRINT`
+- **Captura de una región**:  `SUPER + SHIFT + S`
 
 **🎮 Navegación entre Ventanas**
 
@@ -41,17 +46,12 @@
 
 **🖥️ Espacios de Trabajo**
 
-- **Cambiar workspace de 1 a 10**:  `SUPER + [1,2,3,4,etc...]`
-- **Mover ventana al workspace 1 a 10**:  `SUPER + SHIFT + [1,2,3,4,etc...]`
-
-**📸 Captura de Pantalla**
-
-- **Captura de pantalla completa**:  `SUPER + PRINT`
-- **Captura de una región**:  `SUPER + SHIFT + S`
+- **Cambiar workspace de 1 a 9**:  `SUPER + [1,2,3,4,etc...]`
+- **Mover ventana al workspace 1 a 9**:  `SUPER + SHIFT + [1,2,3,4,etc...]`
 
 **🔧 Otros**
 
-- **Reiniciar Waybar**:  `SUPER + SHIFT + B`
+- **Reiniciar Waybar**:  `SUPER + R`
 - **Color Picker**: `SUPER + P`
 
 # 🔵 Instalación
