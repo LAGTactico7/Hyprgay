@@ -34,7 +34,7 @@
 
 **📸 Captura de Pantalla**
 
-- **Captura de pantalla completa**:  `SUPER + PRINT`
+- **Captura de pantalla completa**:  `PRINT`
 - **Captura de una región**:  `SUPER + SHIFT + S`
 
 **🎮 Navegación entre Ventanas**
