@@ -33,7 +33,6 @@
         },
 		{
 			"type": "title",
-			"format": "{#39}break@archlinux"  
 		},
 		{
 			"key": "{#39}os",
