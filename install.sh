@@ -20,11 +20,11 @@ echo "Copiando archivos de configuración más gays aún..."
 echo ""
 
 cp -r .config/* ~/.config/ && echo "Archivos de .config copiados a ~/.config." || echo "No se encontró .config."
-cp -r .fonts/* ~/.local/share/fonts/ && echo "Archivos de .fonts copiados a ~/.local/share/fonts." || echo "No se encontró .fonts."
-cp -r .icons/* ~/.icons/ && echo "Archivos de .icons copiados a ~/.icons." || echo "No se encontró .icons."
-cp -r wallpapers/* ~/Pictures/ && echo "Archivos de wallpapers copiados a ~/Pictures." || echo "No se encontró wallpapers."
-cp .p10k.zsh ~/ && echo "Archivo .p10k.zsh copiado a ~/" || echo "No se encontró .p10k.zsh."
-cp .zshrc ~/ && echo "Archivo .zshrc copiado a ~/" || echo "No se encontró .zshrc."
+cp -r .fonts/* ~/.local/share/fonts && echo "Archivos de .fonts copiados a ~/" || echo "No se encontró .fonts"
+cp -r .icons/* ~/ && echo "Archivos de .icons copiados a ~/" || echo "No se encontró .icons"
+cp -r wallpapers/* ~/.config/ && echo "Archivos de wallpapers copiados a ~/" || echo "No se encontró wallpapers"
+cp .p10k.zsh ~/ && echo "Archivos de .p10k.zsh copiados a ~/" || echo "No se encontró .p10k.zsh"
+cp .zshrc ~/ && echo "Archivos de .zshrc copiados a ~/" || echo "No se encontró .zshrc"
 
 if [ "$SHELL" != "/bin/zsh" ] && command -v zsh &> /dev/null; then
     echo "Cambiando la shell a Zsh..."
