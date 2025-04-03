@@ -1,60 +1,58 @@
 echo ""
 echo "Instalando dependencias muy gays..."
 echo ""
-sudo pacman -S hyprland hyprpaper hyprpicker kitty btop cava cmus fastfetch micro wl-clipboard git ttf-ibm-plex thunar 
+
+sudo pacman -S --noconfirm hyprland hyprpaper hyprpicker kitty btop cava cmus fastfetch micro wl-clipboard git ttf-ibm-plex thunar 
 
 echo ""
-echo "Espera un poquito mas precioso..."
+echo "Espera un poquito más, precioso..."
 echo ""
 
 git clone https://aur.archlinux.org/paru-bin.git
 cd paru-bin 
-makepkg -si
+makepkg -si --noconfirm
 cd ..
 paru -Sy
-paru -S tofi waybar-cava oh-my-zsh-git zsh zsh-theme-powerlevel10k hyprshot
+paru -S --noconfirm tofi waybar-cava oh-my-zsh-git zsh-theme-powerlevel10k hyprshot
 
 echo ""
-echo "Copiando archivos de configuracion mas gays aun..."
+echo "Copiando archivos de configuración más gays aún..."
 echo ""
 
 cp -r .config/* ~/.config/ && echo "Archivos de .config copiados a ~/.config." || echo "No se encontró .config."
-cp -r .fonts/* ~/ && echo "Archivos de .fonts copiados a ~/" || echo "No se encontró .fonts"
-cp -r .icons/* ~/ && echo "Archivos de .icons copiados a ~/" || echo "No se encontró .icons"
-cp -r wallpapers/* ~/.config/ && echo "Archivos de wallpapers copiados a ~/" || echo "No se encontró wallpapers"
-cp .p10k.zsh ~/ && echo "Archivos de .p10k.zsh copiados a ~/" || echo "No se encontró .p10k.zsh"
-cp .zshrc ~/ && echo "Archivos de .zshrc copiados a ~/" || echo "No se encontró .zshrc"
+cp -r .fonts/* ~/.local/share/fonts/ && echo "Archivos de .fonts copiados a ~/.local/share/fonts." || echo "No se encontró .fonts."
+cp -r .icons/* ~/.icons/ && echo "Archivos de .icons copiados a ~/.icons." || echo "No se encontró .icons."
+cp -r wallpapers/* ~/Pictures/ && echo "Archivos de wallpapers copiados a ~/Pictures." || echo "No se encontró wallpapers."
+cp .p10k.zsh ~/ && echo "Archivo .p10k.zsh copiado a ~/" || echo "No se encontró .p10k.zsh."
+cp .zshrc ~/ && echo "Archivo .zshrc copiado a ~/" || echo "No se encontró .zshrc."
 
-# Cambiar el shell solo si Zsh está instalado y no es el actual
-if [ "$SHELL" != "/usr/bin/zsh" ] && command -v zsh &> /dev/null; then
-    sudo chsh -s /usr/bin/zsh $USER
+if [ "$SHELL" != "/bin/zsh" ] && command -v zsh &> /dev/null; then
+    echo "Cambiando la shell a Zsh..."
+    chsh -s /bin/zsh $USER
+    echo "Reinicia sesión para aplicar los cambios."
 else
     echo "Zsh ya está configurado como shell predeterminado."
 fi
 
-# Clonando los plugins de zsh solo si no existen
-ZSH_PLUGIN_DIR="${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins"
-
+ZSH_CUSTOM="${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}"
+ZSH_PLUGIN_DIR="$ZSH_CUSTOM/plugins"
 mkdir -p "$ZSH_PLUGIN_DIR"
 
-if [ ! -d "$ZSH_PLUGIN_DIR/zsh-autosuggestions" ]; then
-    git clone https://github.com/zsh-users/zsh-autosuggestions "$ZSH_PLUGIN_DIR/zsh-autosuggestions"
-else
-    echo "zsh-autosuggestions ya está instalado, omitiendo..."
-fi
+echo ""
+echo "Instalando plugins de Zsh..."
+echo ""
 
-if [ ! -d "$ZSH_PLUGIN_DIR/zsh-syntax-highlighting" ]; then
-    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "$ZSH_PLUGIN_DIR/zsh-syntax-highlighting"
-else
-    echo "zsh-syntax-highlighting ya está instalado, omitiendo..."
-fi
-
-if [ ! -d "$ZSH_PLUGIN_DIR/zsh-256color" ]; then
-    git clone https://github.com/chrissicool/zsh-256color "$ZSH_PLUGIN_DIR/zsh-256color"
-else
-    echo "zsh-256color ya está instalado, omitiendo..."
-fi
+for repo in "zsh-users/zsh-autosuggestions" "zsh-users/zsh-syntax-highlighting" "chrissicool/zsh-256color"; do
+    plugin_name=$(basename "$repo")
+    if [ ! -d "$ZSH_PLUGIN_DIR/$plugin_name" ]; then
+        git clone "https://github.com/$repo" "$ZSH_PLUGIN_DIR/$plugin_name"
+        echo "$plugin_name instalado."
+    else
+        echo "$plugin_name ya está instalado, omitiendo..."
+    fi
+done
 
 echo ""
-echo "Instalacion completa ahora eres totalmente gay."
+echo "Instalación completa. Ahora eres oficialmente gay."
 echo ""
+read -p "Presiona Enter para cerrar..."
